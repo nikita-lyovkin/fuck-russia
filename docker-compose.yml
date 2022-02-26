@@ -1,0 +1,7 @@
+version: '2'
+
+services:
+  scrapper:
+    build: .
+    volumes:
+      - ./src:/code
